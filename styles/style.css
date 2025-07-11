@@ -219,6 +219,7 @@ div h3{
     resize: none;
     color: #000000;
     opacity: 50%;
+    background-color: #FFFFFF;
   }
   
   button {
@@ -235,4 +236,41 @@ div h3{
   
   button:hover {
     background-color: #0056b3;
+  }
+
+  /**********footer********/
+  footer{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  footer h3{
+    color: #4e47ff;
+    font-weight: 900;
+    font-size: 100px;
+  }
+
+  footer p{
+    color: #8987A1;
+    font-size: 15px;
+    font-weight: 200;
+  }
+
+  footer ul li{
+    list-style: none;
+    color: #8987A1;
+    font-size: 15px;
+    font-weight: 200;
+    margin-left: 48px;
+  }
+
+  footer ul{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 103px;
+   margin-right: 520px;
+   margin-left: 460px;
   }
