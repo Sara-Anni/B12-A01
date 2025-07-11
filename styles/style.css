@@ -97,26 +97,23 @@ div h1{
 }
 
 /*Productive users section*/
-section{
-    background-color: #4E47FF;
-    opacity: 10%;
-}
-.pu-section{   
+.pu-section{ 
+    background-color: #e5e7ff;
     border-radius: 25px;
-    padding: 80px 20px;
-    z-index: 1;
+    margin: 116px 141px;
 }
 
-section h3{
+div h3{
     color: #252432;
     font-weight: bold;
     font-size: 38px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 50px 142px 0px;
 }
 .pu-elmt{
-
+    padding: 40px 142px;
     display: flex;
     justify-content: space-between;
 }
@@ -133,3 +130,109 @@ section h3{
     opacity: 50%;
     font-weight: 400;
 }
+
+/*users feedback section*/
+.user-feedback{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.ufd1{
+    background-color: #FFFFFF;
+    border-radius: 14%;
+    padding: 24px 24px;
+    width: 320px;
+    height: 243px;
+}
+.star{
+    list-style: none;
+    display: flex;
+    margin-left: 5px;
+}
+.feedback{
+    margin-left: 48px;
+}
+.user{
+    list-style: none;
+    display: flex;
+}
+.u-img{
+    border-radius: 99%;
+    margin-right: 12px;
+}
+.name{
+    color: #757575;
+}
+.dt{
+    color: #b3b3b3;
+}
+
+
+/******form section*****************/
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  
+  .left {
+    flex: 1;
+    padding-right: 40px;
+  }
+  
+  .left h1 {
+    font-size:97px;
+    line-height: 1.2;
+    color: #000000;
+    font-weight: bold;
+}
+  
+  .right {
+    flex: 1;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  input,
+  textarea {
+    padding: 20px 32px;
+    margin-bottom: 20px;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    font-size: 15px;
+    resize: none;
+    color: #000000;
+    opacity: 50%;
+  }
+  
+  button {
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 12px 36px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
