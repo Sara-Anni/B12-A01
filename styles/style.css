@@ -94,6 +94,8 @@ div h1{
     width: 403px;
     height: 328px;
     border-radius: 48px;
+    box-shadow:0 10px 5px -5px #757575;
+    
 }
 
 /*Productive users section*/
@@ -263,7 +265,7 @@ div h3{
     color: #8987A1;
     font-size: 15px;
     font-weight: 200;
-    margin-left: 50px;
+    margin-left: 60px;
   }
 
   footer ul{
